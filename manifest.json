@@ -1,7 +1,7 @@
 {
   "name": "r.get-chrome-extension",
-  "description": "r.get, moment, lodash 제공",
-  "version": "1.0.2",
+  "description": "r.get, r.setToken, moment, lodash 제공",
+  "version": "1.0.3",
   "browser_action": {
     "default_popup": "hello.html",
     "default_icon": "hello.png"
