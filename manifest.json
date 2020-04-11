@@ -27,7 +27,8 @@
     },
     {
       "matches": [
-        "*://192.168.200.233/swagger-ui.html"
+        "*://192.168.200.233/swagger-ui.html",
+        "*://221.141.145.13/swagger-ui.html"
       ],
       "run_at": "document_end",
       "js": [
