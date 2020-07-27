@@ -19,7 +19,15 @@
   "content_scripts": [
     {
       "matches": [
-        "*://localhost/*"
+        "*://localhost/*",
+        "*://192.168.200.233/*",
+        "*://221.141.145.13/*",
+        "*://165.132.196.226/*"
+      ],
+      "exclude_matches": [
+        "*://192.168.200.233/swagger-ui.html",
+        "*://221.141.145.13/swagger-ui.html",
+        "*://165.132.196.226/swagger-ui.html"
       ],
       "js": [
         "index.js"
@@ -28,7 +36,8 @@
     {
       "matches": [
         "*://192.168.200.233/swagger-ui.html",
-        "*://221.141.145.13/swagger-ui.html"
+        "*://221.141.145.13/swagger-ui.html",
+        "*://165.132.196.226/swagger-ui.html"
       ],
       "run_at": "document_end",
       "js": [
