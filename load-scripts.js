@@ -8,9 +8,8 @@ var loadScript = function(scriptUrl) {
     (document.head || document.documentElement).appendChild(s);
 }
 
+// swagger 페이지에서 lodash 충돌남
+loadScript('lib/jquery-3.5.0.min.js')
 loadScript('lib/lodash.js')
 loadScript('lib/moment.min.js')
 loadScript('lib/myCall.js')
-// if (location.href.indexOf('192.168.200.233/swagger-ui.html')>-1) {
-//     loadScript("lib/swagger-auto-authorize.js")
-// }
